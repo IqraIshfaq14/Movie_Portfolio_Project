@@ -1,7 +1,7 @@
 # Movie_Portfolio_Project
 Analyzing three decades of movie data.
 ## Context
-Is the movie industry dying? is Netflix the new entertainment king? Those were the first questions that lead me to create a dataset focused on movie revenue and analyze it over the last decades. But, why stop there? There are more factors that intervene in this kind of thing, like actors, genres, user ratings and more. And now, anyone with experience (you) can ask specific questions about the movie industry, and get answers.
+Is the movie industry thriving or facing challenges? Has Netflix emerged as the dominant force in entertainment? These questions sparked my interest and led me to create a dataset analyzing movie revenues over the years. In this project, I specifically focused on visualizing the correlation between a movie's gross earnings and its budget. Additionally, I used scatter plots to further explore the relationship between these two key variables. But the analysis doesn't stop there; by considering other factors such as actors, genres, and user ratings, anyone (like you) can dive deeper into the film industry and uncover valuable insights.
 ## Content
 There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movie has the following attributes:
 budget: the budget of a movie. Some movies don't have this, so it appears as 0
@@ -37,4 +37,4 @@ year: year of release
 ## Acknowledgements
 This data was scraped from IMDb.
 ## Contribute
-You can contribute via GitHub and Kaggle.
+You can contribute via [GitHub]() and [Kaggle]https://(www.kaggle.com/datasets/danielgrijalvas/movies )

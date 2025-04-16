@@ -37,4 +37,4 @@ year: year of release
 ## Acknowledgements
 This data was scraped from IMDb.
 ## Contribute
-You can contribute via [GitHub]() and [Kaggle]https://(www.kaggle.com/datasets/danielgrijalvas/movies )
+You can contribute via [GitHub]() and [Kaggle] https://(www.kaggle.com/datasets/danielgrijalvas/movies )

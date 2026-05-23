@@ -1,40 +1,80 @@
-# Movie_Portfolio_Project
-Analyzing three decades of movie data.
-## Context
-Is the movie industry thriving or facing challenges? Has Netflix emerged as the dominant force in entertainment? These questions sparked my interest and led me to create a dataset analyzing movie revenues over the years. In this project, I specifically focused on visualizing the correlation between a movie's gross earnings and its budget. Additionally, I used scatter plots to further explore the relationship between these two key variables. But the analysis doesn't stop there; by considering other factors such as actors, genres, and user ratings, anyone (like you) can dive deeper into the film industry and uncover valuable insights.
-## Content
-There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movie has the following attributes:
-budget: the budget of a movie. Some movies don't have this, so it appears as 0
+# Movies Gross Correlation Analysis
 
-company: the production company
+A comprehensive data analysis project exploring the relationship between movie production budgets and box office performance across three decades of the film industry.
 
-country: country of origin
+---
 
-director: the director
+## Project Overview
 
-genre: main genre of the movie.
+The entertainment industry has undergone significant transformation over the years, driven by evolving audience preferences, technological advancements, and the rise of streaming platforms such as Netflix. This project was developed to examine trends within the movie industry through data-driven analysis and visualization.
 
-gross: revenue of the movie
+The primary objective of this analysis is to investigate the correlation between a movie’s **production budget** and its **gross revenue**. Using statistical methods and visual analytics, the project aims to identify patterns that may influence commercial success in the film industry.
 
-name: name of the movie
+In addition to budget and revenue analysis, the dataset enables further exploration of variables such as:
 
-rating: rating of the movie (R, PG, etc.)
+- Genre and audience preferences
+- Actor and director influence
+- Production companies
+- IMDb ratings and audience engagement
+- Release trends over time
 
-released: release date (YYYY-MM-DD)
+The project leverages data visualization techniques, including scatter plots and correlation matrices, to provide meaningful insights into movie performance and industry dynamics.
 
-runtime: duration of the movie
+---
 
-score: IMDb user rating
+## Dataset Information
 
-votes: number of user votes
+The dataset contains information on **6,820 movies** released between **1986 and 2016**, averaging approximately **220 movies per year**.
 
-star: main actor/actress
+### Dataset Features
 
-writer: writer of the movie
+| Feature | Description |
+|---|---|
+| **budget** | Production budget of the movie *(missing values represented as 0)* |
+| **company** | Production company |
+| **country** | Country of origin |
+| **director** | Director of the movie |
+| **genre** | Primary genre |
+| **gross** | Total gross revenue |
+| **name** | Movie title |
+| **rating** | Film certification rating *(PG, R, etc.)* |
+| **released** | Official release date |
+| **runtime** | Duration of the movie |
+| **score** | IMDb user rating |
+| **votes** | Number of IMDb user votes |
+| **star** | Lead actor/actress |
+| **writer** | Writer of the movie |
+| **year** | Year of release |
 
-year: year of release
+---
 
-## Acknowledgements
-This data was scraped from IMDb.
-## Contribute
-You can contribute via [GitHub]() and dataset from  [Kaggle] (https://www.kaggle.com/datasets/danielgrijalvas/movies )
+## Objectives
+
+- Analyze the correlation between movie budgets and gross earnings
+- Identify factors that contribute to box office success
+- Visualize trends within the film industry over time
+- Explore the impact of ratings, genres, actors, and production companies on revenue generation
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## Data Source
+
+The dataset was scraped from IMDb and made publicly available through Kaggle:
+
+- https://www.kaggle.com/datasets/danielgrijalvas/movies
+
+---
+
+## Contributing
+
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository, submit pull requests, or share feedback through GitHub.
